@@ -69,9 +69,7 @@ function waitAndResponce(inputText) {
         case "major":
             sendTextMessage("<span class='sk'> We are currently pursuing ISIL degree in Computer Science Engineering.<br><br>we can  can comfortably write a code in the following languages :<br><span class='bold'>Java<br>HTML<br>CSS<br>Java Script</span>");
             break;
-        case "education":
-            sendTextMessage("<span class='sk'>third year in university</span>");
-            break;
+        
         case "address":
             sendTextMessage("<span class='sk'>algiers</span>");
             break;
