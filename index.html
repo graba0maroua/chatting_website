@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+
+    <title>web Developers</title>
+  </head>
+
+  <body onload="startFunction()">
+    <span
+      itemprop="thumbnail"
+      itemscope
+      itemtype="http://schema.org/ImageObject"
+    >
+    </span
+    ><!--this span i deleted it and nothing happened so maybe it has something related to js-->
+
+    <nav>
+      <div class="navbar">
+        <img
+          class="dpimg"
+          onclick="openFullScreenDP()"
+          src="images/ourpic.png"
+          alt=""
+        />
+        <!--this is our picture me and you-->
+        <div class="personalInfo">
+          <p id="name">Maroua & Imane</p>
+          <!--i changed label to p cause im familiar with it ,it won't change anything in the code tho it's just preferences-->
+          <p id="lastseen">Last seen today at 3:24 pms</p>
+        </div>
+      </div>
+    </nav>
+
+    <div class="scrollable" id="myScrollable">
+      <div class="fullScreenDP" id="fullScreenDP">
+        <!--we made a function that will close this fullscreen it's closefullscreendp-->
+        <div class="insideDP">
+          <!--THis ONE IS IMPORTANT-->
+          <img class="dp" src="images/ourpic.png" alt="" />
+        </div>
+        <!--sgv is based on xml format vector based graphics-->
+      </div>
+      <!--this is the black image aka the body in the middle-->
+      <div id="chatting" class="chatting">
+        <ul id="listUL"></ul>
+      </div>
+    </div>
+
+    <footer>
+      <div class="sendBar">
+        <input
+          id="inputMSG"
+          onkeypress="isEnter(event)"
+          type="text"
+          placeholder="Type a message"
+          autofocus
+        /><!-- the autofocus attribute it specifies that the element should automatically get focus when the page loads.
+        on keypress is what we wrote inside the type a message-->
+      </div>
+    </footer>
+  </body>
+</html>
