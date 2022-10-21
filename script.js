@@ -89,9 +89,6 @@ function waitAndResponce(inputText) {
             }, 2000);
             break;
     }
-
-
-
 }
 
 
