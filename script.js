@@ -59,7 +59,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>We're <span class='bold'><a class='alink'> Graba Maroua and Midoune Imane</a>.</span><br><br> Computer science students at <span class='bold'>Algiers 1 university </span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>We're <span class='bold'><a class='alink'> Graba Maroua and Midoune Imane</a>.</span><br><br> Computer science students at <span class='bold'>Algiers 1 university </span><br><br> we are passionate about <br><br>Send <span class='bold'>'more'</span> to know more about me.<br>");
             }, 2000);
             break;
         case "more":
@@ -84,7 +84,7 @@ function waitAndResponce(inputText) {
             clearChat();
             break;
         case "about":
-            sendTextMessage("💻 This website was built using HTML, CSS and JavaScript from SCRATCH! <br><br>👨🏻‍💻 Developed by><span class='bold'> Maroua & Imane </a> with ❤️</span>");
+            sendTextMessage("💻 This website was built using HTML, CSS and JavaScript from SCRATCH! <br><br> Developed by><span class='bold'> Maroua & Imane </a></span>");
         default:
             setTimeout(() => {
                 sendTextMessage("We couldn't  catch you...😢<br>Please Send 'more' to know more about usage.");
