@@ -72,7 +72,7 @@ function waitAndResponce(inputText) {
             break;
         
         case "address":
-            sendTextMessage("<span class='sk'>algiers</span>");
+            sendTextMessage("<span class='sk'>Algiers</span>");
             break;
        
         case "contact":
