@@ -20,7 +20,8 @@ function openFullScreenDP() {
 }
 
 function isEnter(event) {
-    if (event.keyCode == 13) {//returns the neumeric code of the pressed value. This has been deprecated and we should use the key property instead.
+    if (event.keyCode == 13) {
+    //returns the neumeric code of the pressed value. This has been deprecated and we should use the key property instead.
         sendMsg();
     }
 }
