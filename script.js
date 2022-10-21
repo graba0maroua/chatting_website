@@ -63,17 +63,15 @@ function waitAndResponce(inputText) {
             }, 2000);
             break;
         case "more":
-            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about us...<br>e.g<br><span class='bold'>'major'</span> - to know my major<br><span class='bold'></span> <br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'address'</span> - to get my address<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'projects'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about us...<br>e.g<br><span class='bold'>'major'</span> - to know our major<br><span class='bold'></span> <br><span class='bold'>'address'</span> - to get our address<br><span class='bold'>'contact'</span> - to get ways to connect with us<br><br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
             break;
         
         case "major":
             sendTextMessage("<span class='sk'> we are currently pursuing ISIL degree in Computer Science Engineering.<br><br>we can  can comfortably write a code in the following languages :<br><span class='bold'>Java<br>HTML<br>CSS<br>Java Script</span>");
             break;
-        case "education":
-            sendTextMessage("<span class='sk'>third year in university</span>");
-            break;
+        
         case "address":
-            sendTextMessage("<span class='sk'>algiers</span>");
+            sendTextMessage("<span class='sk'>Algiers</span>");
             break;
        
         case "contact":
